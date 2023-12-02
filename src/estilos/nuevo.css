@@ -1,91 +1,91 @@
-.logo {
-    border-radius: 20px;
-    margin-left: 25%;
- }
-
-html, body {
-  height: 100%;
-}
-.logopaciente{
-  border-radius: 20px;
-}
-
-
-
-
-
-
-
-/* inicio menu */
-
-.container#menu {
-  background-color: #ffebcd; /* Cambia el color de fondo del contenedor */
-  border: 1px solid #ced4da; /* Añade un borde alrededor del contenedor */
-  padding: 20px; /* Ajusta el espacio interior del contenedor */
-  max-width: 400px; /* Ajusta el ancho máximo del contenedor */
-  margin: 0 auto; /* Centra el contenedor en la página */
-  border-radius: 8px; /* Añade esquinas redondeadas al contenedor */
-}
-
-h5 {
-  margin-bottom: 20px;
-  color: #343a40; /* Cambia el color del texto del título */
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: #343a40; /* Cambia el color del texto de las etiquetas */
-  text-align: left;
-}
-
-input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ced4da; /* Añade un borde alrededor de los campos de entrada */
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-/* fin menu */
-
-#mainNav{
-  background-color: #333333;
-}
-.pacientes{
-  color: #007bff;
-}
-
-.linea_inferior{
-  border-radius: 20px;
-  background-color: #04AA6D;
-}
-.salir{
-
-  text-decoration: none;
-  color: #ffebcd;
-  background-color: #007bff;
-}
- 
-h1{
-  font-family:Roboto Slab
-}
-#modalespecialidad{
-  background-color: #0056b3;
+.logo {
+    border-radius: 20px;
+    margin-left: 25%;
+ }
+
+html, body {
+  height: 100%;
+}
+.logopaciente{
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+/* inicio menu */
+
+.container#menu {
+  background-color: #ffebcd; /* Cambia el color de fondo del contenedor */
+  border: 1px solid #ced4da; /* Añade un borde alrededor del contenedor */
+  padding: 20px; /* Ajusta el espacio interior del contenedor */
+  max-width: 400px; /* Ajusta el ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor en la página */
+  border-radius: 8px; /* Añade esquinas redondeadas al contenedor */
+}
+
+h5 {
+  margin-bottom: 20px;
+  color: #343a40; /* Cambia el color del texto del título */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #343a40; /* Cambia el color del texto de las etiquetas */
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da; /* Añade un borde alrededor de los campos de entrada */
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* fin menu */
+
+#mainNav{
+  background-color: #333333;
+}
+.pacientes{
+  color: #007bff;
+}
+
+.linea_inferior{
+  border-radius: 20px;
+  background-color: #04AA6D;
+}
+.salir{
+
+  text-decoration: none;
+  color: #ffebcd;
+  background-color: #007bff;
+}
+ 
+h1{
+  font-family:Roboto Slab
+}
+#modalespecialidad{
+  background-color: #0056b3;
 }

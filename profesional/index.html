@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Clean Blog - Start Bootstrap Theme</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="nuevo.css">
+
+    
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-black" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="menu.html"><img class="logo" src="logocmp.jpg" alt=""></a> 
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <!-- <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="admin.html"> <div class="pacientes">PACIENTES </div> </a></li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead" style="background-image: url('assets/img/medico.jpg'); height: 100vh; background-size: cover;">
+        <div class="container position-relative px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <div class="site-heading">
+                       <!-- ingreso al sistema -->
+
+                       <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <div class="container" id="menu">
+        <h5>Iniciar Sesión</h5>
+        <label for="username">Usuario:</label>
+        <input type="text" id="username"><br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password"><br>
+        <button onclick="verificarCredenciales()">Iniciar Sesión</button>
+    </div>
+
+    <script>
+        // usuario 1
+        var usuarios = [
+    { username: "usuario", password: "1234", destino: "marianela.html" },
+    { username: "admin", password: "1234", destino: "admin.html" },
+    // Agrega más usuarios según sea necesario
+];
+
+function verificarCredenciales() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    if (username && password) {
+        var usuarioValido = false;
+
+        for (var i = 0; i < usuarios.length; i++) {
+            if (usuarios[i].username === username && usuarios[i].password === password) {
+                window.location.href = usuarios[i].destino;
+                usuarioValido = true;
+                break;
+            }
+        }
+
+        if (!usuarioValido) {
+            alert("Credenciales incorrectas. Por favor, inténtalo de nuevo.");
+        }
+    } else {
+        alert("Por favor completa todos los campos.");
+    }
+}
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+                       <!-- fin de ingreso al sistema -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Agrega el resto del contenido si es necesario -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
